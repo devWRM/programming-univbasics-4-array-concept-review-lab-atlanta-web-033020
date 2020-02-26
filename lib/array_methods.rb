@@ -1,11 +1,11 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  array.length.time { |index|
+    array.length.time do |index|
 
-    if (value_to_find) do
-      return index
+            if (value_to_find) do
+              return index
+            end
     end
-  }
 
 end
 
