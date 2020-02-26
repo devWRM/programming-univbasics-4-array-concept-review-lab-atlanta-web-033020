@@ -14,11 +14,11 @@ end
 def find_max_value(array)
   # Add your solution here
     array.length.time do |index|
-        
+
         if array[index] >= array[0]
             maximum = array[index]
         end
-      
+
     end
 
     return maximum
